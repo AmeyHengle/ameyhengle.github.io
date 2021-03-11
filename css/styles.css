@@ -10003,13 +10003,17 @@ h3 {
 }
 body {
   padding-top: 3.375rem;
-  color: #6c757d;
+  /* color: #6c757d; */
+  color : #343a40;
+  /* color : #000000 */
+  
 }
 
 @media (min-width: 992px) {
   body {
     padding-top: 0;
     padding-left: 17rem;
+    font-size: 1.13rem;
   }
 }
 h1,
@@ -10027,7 +10031,7 @@ h1 {
 
 p.lead {
   font-size: 1.15rem;
-  font-weight: 400;
+  font-weight: 300;
   color : #343a40
   /* color : #294779 */
 }
@@ -10037,6 +10041,8 @@ p.lead {
   text-transform: uppercase;
   font-weight: 500;
   font-size: 1.5rem;
+  color : #6c757d
+  /* color : #343a40 */
 }
 
 #sideNav .navbar-nav .nav-item .nav-link {
